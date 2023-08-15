@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "varied_monsters",
+  "version": "${version}",
+
+  "name": "Varied Monsters",
+  "description": "Monsters spawn with varied stats",
+  "authors": [
+    "Spicyfiction"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "spicyfiction.varied_monsters.VariedMonsters"
+    ]
+  },
+  "mixins": [
+      "varied_monsters.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3"
+  },
+  "suggests": {
+  }
+}
